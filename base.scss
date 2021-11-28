@@ -297,16 +297,16 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant($theme-dark, white, white);
+    @include button-variant($theme-dark, rgb(0, 0, 0), rgb(0, 0, 0));
 }
 
 .btn-primary {
-    @include button-variant(white, $theme-dark, $theme-dark);
+    @include button-variant(rgb(0, 0, 0), $theme-dark, $theme-dark);
 }
 
 .btn {
     @include sans-serif-font;
-    border-color: $theme-dark;
+    border-color: rgba($theme-dark, .5);
     border-width: 3px;
     border-radius: 300px;
     font-weight: 700;
