@@ -226,7 +226,7 @@ header {
 .portfolio-box {
     position: relative;
     display: block;
-    max-width: 650px;
+    max-width: 200px;
     margin: 0 auto;
     .portfolio-box-caption {
         color: white;
@@ -243,7 +243,7 @@ header {
             width: 100%;
             text-align: center;
             position: absolute;
-            top: 50%;
+            top: 20%;
             transform: translateY(-50%);
             .project-category,
             .project-name {
@@ -307,14 +307,14 @@ header {
 .btn {
     @include sans-serif-font;
     border-color: rgba($theme-dark, .5);
-    border-width: 3px;
+    border-width: 1px;
     border-radius: 300px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .btn-xl {
-    padding: 15px 30px;
+    padding: 8px 15px;
 }
 
 // Contact
